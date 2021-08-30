@@ -36,7 +36,7 @@ nav{
     padding-bottom: 21.5px;
     transition: border-color 0.5s;
     padding-bottom: 21.5px;
-    transition: 0.7s;
+    transition: 0.6s;
 }
 
 .menu-nav:hover{
@@ -52,7 +52,7 @@ nav{
     display: inline-block;
     margin-left: 20px;
     top: 8px;
-    transition: 0.7s;
+    transition: 0.6s;
 }
 
 
