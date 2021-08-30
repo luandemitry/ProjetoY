@@ -1,0 +1,88 @@
+
+@font-face {
+    font-family:'beckman';
+    src: url(fonts/Beckman-Free.otf);
+}
+@font-face {
+    font-family: 'rubik';
+    src: url(fonts/Rubik-Light.ttf);
+}
+body{
+    background-color:#0E1923 ;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav{
+    background-color: #111111;
+    text-align: center;
+    height: 60px;
+}
+
+.menu-caixa{
+    display: inline-block;
+    padding: 20px;
+    
+} 
+
+.menu-nav{
+    color: #FFFFFF;
+    display: inline-block;
+    font-family: beckman;
+    font-size: 16x;
+    text-decoration: none;
+    margin-right: 40px;
+    border-bottom: 1px solid transparent;
+    padding-bottom: 21.5px;
+    transition: border-color 0.5s;
+    padding-bottom: 21.5px;
+}
+
+.menu-nav:hover{
+    border-bottom: solid white 1px;
+    transition-delay: 0.25s;
+}
+
+
+.logo-pequena{
+    position: absolute;
+    width: 50px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 20px;
+    top: 8px;
+}
+
+
+.caixa-main{
+    border-top: #FF4B50 5px solid;
+    border-radius: 13px;
+     padding-top: 20px;
+}
+
+b{
+    font-weight: bold;
+}
+
+i{
+    font-style: italic;
+}
+main p{
+    color: white;
+    font-family:rubik;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+
+.testeb{
+    color: #FF4B50;
+    transition: 1s all;
+}
+.testeb:hover{
+    color: #ff9699;
+    transition: 1s;
+    text-decoration: underline;
+}
