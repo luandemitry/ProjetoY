@@ -84,7 +84,11 @@ i{
     text-decoration: underline;
 }
 
-
+.caixa-footer{
+    border-top: #E4E4E4 5px solid;
+    border-radius: 13px;
+    
+}
 .caixa-rodape{
     background-color: #111111;
     text-align: center;
@@ -102,6 +106,7 @@ i{
     font-family: rubik;
     margin-bottom: 5px;
     padding-bottom: 15px;
+    font-weight: bold;
 }
 
 .icones{
