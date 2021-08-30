@@ -56,10 +56,11 @@ nav{
 }
 
 
+
 .caixa-main{
-    border-top: #FF4B50 5px solid;
+    border-top: #E4E4E4 5px solid;
     border-radius: 13px;
-     padding-top: 20px;
+    padding-top: ;
 }
 
 b{
@@ -69,13 +70,10 @@ b{
 i{
     font-style: italic;
 }
-main p{
-    color: white;
-    font-family:rubik;
-    font-size: 14px;
-    margin-left: 5px;
-}
 
+.banner{
+    width: 100%;
+}
 
 .testeb{
     color: #FF4B50;
