@@ -83,3 +83,31 @@ i{
     transition: 1s;
     text-decoration: underline;
 }
+
+
+.caixa-rodape{
+    background-color: #111111;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: #E4E4E4;
+}
+.rodape-imagem{
+    width: 10%;
+    height: 70px;
+}
+.copyright{
+    font-size: 12px;
+    font-family: rubik;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+
+.icones{
+    width: 30px;
+    display: inline-block;
+    margin-bottom:15px;
+    margin-right: 5px;
+
+}
