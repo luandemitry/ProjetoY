@@ -70,6 +70,13 @@ nav{
     border-radius: 13px;
 }
 
+
+.caixa-conteudo{
+    border: #FF4655 10px solid;
+    margin: 20px auto;
+    padding: 150px;
+    
+}
 b{
     font-weight: bold;
 }
@@ -90,8 +97,8 @@ i{
 .caixa-rodape{
     background-color: #111111;
     text-align: center;
-    position: fixed;
-    bottom: 0;
+    /*position: fixed;
+    bottom: 0;*/
     width: 100%;
     color: #E4E4E4;
 }
