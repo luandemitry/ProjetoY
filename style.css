@@ -29,7 +29,7 @@ nav{
     color: #FFFFFF;
     display: inline-block;
     font-family: beckman;
-    font-size: 16x;
+    font-size: 16px;
     text-decoration: none;
     margin-right: 40px;
     border-bottom: 1px solid transparent;
@@ -41,9 +41,15 @@ nav{
 
 .menu-nav:hover{
     border-bottom: solid white 1px;
-    transition-delay: 0.25s;
+    background-color: #FF4655;
+    padding: 5px;
+    font-size: 17px;
 }
 
+.menu-nav:active{
+    border-bottom: solid white 1px;
+    transition-delay: 0.25s;
+}
 
 .logo-pequena{
     position: absolute;
@@ -55,7 +61,9 @@ nav{
     transition: 0.6s;
 }
 
-
+.logo-pequena:hover{
+    background-color: #1a1a1a;
+}
 
 .caixa-main{
     border-top: #E4E4E4 5px solid;
@@ -74,15 +82,7 @@ i{
     width: 100%;
 }
 
-.testeb{
-    color: #FF4B50;
-    transition: 1s all;
-}
-.testeb:hover{
-    color: #ff9699;
-    transition: 1s;
-    text-decoration: underline;
-}
+
 
 .caixa-footer{
     border-top: #E4E4E4 5px solid;
