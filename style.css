@@ -34,9 +34,7 @@ nav{
     margin-right: 40px;
     border-bottom: 1px solid transparent;
     padding-bottom: 21.5px;
-    transition: border-color 0.5s;
-    padding-bottom: 21.5px;
-    transition: 0.6s;
+    transition-duration: 0.6s;
 }
 
 .menu-nav:hover{
@@ -83,8 +81,6 @@ i{
 .banner{
     width: 100%;
 }
-
-
 
 .caixa-footer{
     border-top: #E4E4E4 5px solid;
