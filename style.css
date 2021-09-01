@@ -70,12 +70,30 @@ nav{
     border-radius: 13px;
 }
 
-
+.caixa-parent{
+    text-align: center;
+}
 .caixa-conteudo{
-    border: #FF4655 10px solid;
-    margin: 20px auto;
-    padding: 150px;
-    
+    border: #162736 10px solid;
+    margin: 20px 15px;
+    border-radius: 5px;
+    width: 30%;
+    height: 500px;
+    display: inline-block;
+}
+
+h3{
+    font-family: beckman;
+    color: white;
+    text-align: center;
+    margin-top:20px;
+    font-size: 20px;
+}
+.linha-horizontal{
+    border-bottom: #162736 2px solid;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 b{
     font-weight: bold;
