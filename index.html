@@ -28,8 +28,8 @@
                             <li class="menu-nav"><a href="agentes.html"><i class="fas fa-male"></i> Agentes</a></li>
                             <li class="menu-nav"><a href="mapas.html"><i class="fas fa-map-marker-alt"></i> Mapas</a></li>
                             <li class="menu-nav">
-                                <div class="submenu" onmouseenter="abrir('submenu')" onmouseleave="fechar('submenu')">
-                                    <a href="#"><i class="fas fa-plus-circle"></i> Mais</a>
+                                <div class="submenu" onclick="abrir('submenu')">
+                                    <a href="#"><i class="fas fa-chevron-down"></i> Mais</a>
                                     <ul class="submenu-nav" id="submenu">
                                         <li class="submenu-item">
                                             <a href="#" class="submenu-link">Competitivo</a>
@@ -56,13 +56,19 @@
             <div class="caixa-main">
 
             </div>
-
             <div class="banner">
-                <a href="https://playvalorant.com/pt-br/" target="_blank">
+                <div class="botao-banner">
+                    <button class="btn">
+                      <span class="btn__inner">
+                        <span class="btn__slide"></span>
+                        <span class="btn__content"><a href="https://playvalorant.com/pt-br/" target="_blank">Jogue Agora!</a></span>
+                      </span>
+                    </button>
+                  </div>
                     <video autoplay muted inline  src="imagens/Carrossel-2-1.m4v" class="banner">
 
                     </video>
-                </a>
+                
                 <!-- <img src="imagens/Carrossel-1-Animaton-1(1).gif" alt="" class="banner"> -->
             </div>
 
@@ -99,7 +105,7 @@
 
                 <ul class="caixa-pai-rodape">
                     <li><a href="index.html"><img src="imagens/teste_rodape.png" alt="" class="rodape-imagem"></a></li>
-                    <li class="icones"><a href="#"><img src="imagens/Instagram.png" alt="" class="icones"></a></li>
+                    <li class="icones"><a href="https://www.instagram.com/cristiano/"><img src="imagens/Instagram.png" alt="" class="icones"></a></li>
                     <li class="icones"><a href="#"><img src="imagens/TT.png" class="icones"></a></li>
                     <li class="icones"><a href="#"><img src="imagens/Facebook.png" alt="" class="icones"></a></li>
                     <li><p class="copyright">&copy; Copyright ProjetoY - 2021</p></li>

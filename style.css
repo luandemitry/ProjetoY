@@ -78,7 +78,7 @@ nav{
 .submenu-nav{
   display: none;
   width: 150px;
-  height: 200px;
+  height: 160px;
   background-color: #111111;
   list-style: none;
   margin: 0;
@@ -88,6 +88,8 @@ nav{
   transform-origin: top center;
   border-top: transparent;
   padding-top: 20px;
+  z-index: 2;
+  margin-top: 24px;
 }
 
 .submenu-item {
@@ -147,6 +149,10 @@ i{
 
 .banner{
     width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 
 .caixa-footer{
@@ -217,6 +223,11 @@ i{
     transition: all .15s ease;
     margin-top: 300px;
   }
+
+  .btn a{
+    color: #0E1923;
+  }
+
 
   .btn::before,
   .btn::after {
@@ -321,3 +332,12 @@ i{
     --button-text-color-hover: #ece8e1;
     --button-bits-color-hover: #ece8e1;
   }
+
+
+
+  .botao-banner{
+    position: absolute;
+    z-index: 999;
+    
+  }
+

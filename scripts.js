@@ -6,9 +6,9 @@ const abrir = (elemento) => {
                   submenu.style.display = "none";
             }
 }
-const fechar = (elemento) => {
+/*const fechar = (elemento) => {
       const submenu = document.getElementById(elemento);
             if(submenu.style.display == "block"){
             submenu.style.display = "none";
             }
-}
+}*/
