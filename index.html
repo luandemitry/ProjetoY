@@ -7,28 +7,45 @@
     <link rel="stylesheet" href="style.css">
     <script src="https://kit.fontawesome.com/4ac6f134e8.js" crossorigin="anonymous"></script>
     <title>ProjetoX</title>
+    <script src='scripts.js'></script>
 </head>
 
 <body>
     <header>
         <div class="caixa-topo">  <!-- Caixa pai parte superior  -->
-            
+
             <a href="index.html"><img src="imagens/Logo.png" alt="" class="logo-pequena"></a>
 
             <!-- <span class="pesquisa">
                 <i class="fas fa-search"></i>
             </span> -->
-                
+
                 <nav> <!-- Barra de navegação superior -->
-                    
-                        <ul class="menu-caixa"> 
+
+                        <ul class="menu-caixa">
                             <li class="menu-nav"><a href="index.html"> <i class="fas fa-home"></i> Início</a></li>
                             <li class="menu-nav"><a href="#"> <i class="fas fa-khanda"></i> Armas</a></li>
                             <li class="menu-nav"><a href="#"><i class="fas fa-male"></i> Agentes</a></li>
                             <li class="menu-nav"><a href="#"><i class="fas fa-map-marker-alt"></i> Mapas</a></li>
-                            <li class="menu-nav"><a href="#"><i class="fas fa-plus-circle"></i> Mais</a></li>
+                            <li class="menu-nav">
+                                <div class="submenu" onmouseenter="abrir('submenu')" onmouseleave="fechar('submenu')">
+                                    <a href="#"><i class="fas fa-plus-circle"></i> Mais</a>
+                                    <ul class="submenu-nav" id="submenu">
+                                        <li class="submenu-item">
+                                            <a href="#" class="submenu-link">Competitivo</a>
+                                        </li>
+
+                                        <li class="submenu-item">
+                                            <a href="#" class="submenu-link">Atualização</a>
+                                        </li>
+
+                                        <li class="submenu-item">
+                                            <a href="#" class="submenu-link">Sobre nós</a>
+                                        </li>
+                                    </ul>
+                                </div>
                         </ul>
-                
+
                 </nav>
 
         </div>
@@ -57,7 +74,7 @@
                     <div class="linha-horizontal">
 
                     </div>
-                    
+
                         <div>
                           <button class="btn">
                             <span class="btn__inner">
@@ -70,11 +87,11 @@
             </div>
         </div>
         </main>
-    
-       
+
+
      <footer>
-        
-        
+
+
 
         <div class="caixa-rodape">
 
@@ -89,8 +106,10 @@
                 </ul>
 
         </div>
-        
+
      </footer>
-   
+
+
+
 </body>
 </html>
