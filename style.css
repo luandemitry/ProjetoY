@@ -114,24 +114,155 @@ nav{
 }
 
 .caixa-parent{
-    text-align: center;
+    text-align: left;
 }
 .caixa-conteudo{
-    border: #162736 10px solid;
-    margin: 20px 15px;
+    background-color: #162736;
+    margin: 2px 15px;
+    margin-top: 40px;
     border-radius: 5px;
-    width: 30%;
-    height: 500px;
+    width: 889px;
+    height: 111px;
     display: inline-block;
     position: relative;
+    left: 5px;
 }
-
-h3{
+#paginainic{
     font-family: beckman;
     color: white;
-    text-align: center;
-    margin-top:20px;
-    font-size: 20px;
+    text-align: left;
+    margin-top:32px;
+    font-size: 50px;
+    margin-left: 40px;
+}
+.caixa-boasvindas{
+  background-color: #162736;
+  margin: 1px 15px;
+  border-radius: 5px;
+  width: 889px;
+  height: 222px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+#boasvindas {
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top:55px;
+  font-size: 30px;
+  margin-left: 40px;
+}
+#explicacao{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top:45px;
+  font-size: 30px;
+  margin-left: 30px;
+}
+.armas {
+  background-color: #162736;
+  margin: 25px 15px;
+  margin-block-end: 2px;
+  border-radius: 5px;
+  width: 889px;
+  height: 126px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+#armas{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 45px;
+  margin-left: 30px;
+}
+.sub-categoria-armas{
+  background-color: #162736;
+  margin: 1px 15px;
+  border-radius: 5px;
+  width: 889px;
+  height: 555px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+.sub-text-armas{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.fotos-armas-1{
+  display: inline-block;
+}
+.Phantom{
+width: 350px;
+height: 88px;
+margin-top: 60px;
+margin-left: 25px;
+}
+.Phantom:hover{
+  width: 380px;
+  height: 100px;
+}
+.operator{
+width: 350px;
+height: 88px;
+margin-top: 60px;
+margin-left: 25px;
+}
+.operator:hover{
+  width: 380px;
+  height: 100px;
+}
+.saqueador{
+  width: 350px;
+height: 88px;
+margin-top: 60px;
+margin-left: 25px;
+}
+.saqueador:hover{
+  width: 380px;
+  height: 100px;
+}
+.fotos-armas-2{
+  display: inline-block;
+}
+.spectre{
+  width: 350px;
+height: 95px;
+margin-top: 50px;
+margin-left: 25px;
+}
+.spectre:hover{
+  width: 380px;
+  height: 115px;
+}
+.ghost{
+  width: 255px;
+  height: 80px;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+.ghost:hover{
+  width: 285px;
+  height: 95px;
+}
+.sheriff{
+  width: 200px;
+  height: 90px;
+  margin-top: 60px;
+  margin-left: 25px;
+}
+.sheriff:hover{
+  width: 220px;
+  height: 100px;
 }
 .linha-horizontal{
     border-bottom: #162736 2px solid;
