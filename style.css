@@ -185,7 +185,7 @@ nav{
   margin: 1px 15px;
   border-radius: 5px;
   width: 889px;
-  height: 555px;
+  height: 2500px;
   display: inline-block;
   position: relative;
   left: 5px;
@@ -198,71 +198,245 @@ nav{
   font-size: 25px;
   margin-left: 30px;
 }
-.fotos-armas-1{
-  display: inline-block;
+.leves-text{
+  font-family: beckman;
+  color: white;
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 45px;
 }
-.Phantom{
-width: 350px;
-height: 88px;
-margin-top: 60px;
-margin-left: 25px;
+.armas-leves{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
 }
-.Phantom:hover{
-  width: 380px;
-  height: 100px;
+.armas-leves>div{
+  flex: 1 1 60px;
+  margin: 30px;
 }
-.operator{
-width: 350px;
-height: 88px;
-margin-top: 60px;
-margin-left: 25px;
+p {
+  font-family: beckman;
+  color: white;
+  font-size: 15px;
 }
-.operator:hover{
-  width: 380px;
-  height: 100px;
+.classic{
+  width: 105px;
+  height: 75px;
 }
-.saqueador{
-  width: 350px;
-height: 88px;
-margin-top: 60px;
-margin-left: 25px;
+.classic:hover{
+  width: 115px;
+  height: 85px;
 }
-.saqueador:hover{
-  width: 380px;
-  height: 100px;
+.shorty{
+  width: 175px;
+  height: 55px;
 }
-.fotos-armas-2{
-  display: inline-block;
+.shorty:hover{
+  width: 185px;
+  height: 60px;
 }
-.spectre{
-  width: 350px;
-height: 95px;
-margin-top: 50px;
-margin-left: 25px;
+.frenzy{
+  width: 105px;
+  height: 75px;
 }
-.spectre:hover{
-  width: 380px;
-  height: 115px;
+.frenzy:hover{
+  width: 115px;
+  height: 85px;
 }
 .ghost{
-  width: 255px;
-  height: 80px;
-  margin-top: 60px;
-  margin-left: 25px;
+  width: 180px;
+  height: 60px;
 }
 .ghost:hover{
-  width: 285px;
-  height: 95px;
+  width: 190px;
+  height: 70px;
 }
 .sheriff{
-  width: 200px;
-  height: 90px;
-  margin-top: 60px;
-  margin-left: 25px;
+  width: 150px;
+  height: 70px;
 }
 .sheriff:hover{
-  width: 220px;
-  height: 100px;
+  width: 160px;
+  height: 80px;
+}
+.submetralhadoras{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.submetralhadoras>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.stinger{
+  width: 195px;
+  height: 75px;
+}
+.stinger:hover{
+  width: 205px;
+  height: 80px;
+}
+.spectre{
+  width: 195px;
+  height: 75px;
+}
+.spectre:hover{
+  width: 205px;
+  height: 80px;
+}
+.escopetas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.escopetas>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.bucky{
+  width: 195px;
+  height: 35px;
+}
+.bucky:hover{
+  width: 205px;
+  height: 40px;
+}
+.judge{
+  width: 195px;
+  height: 58px;
+}
+.judge:hover{
+  width: 205px;
+  height: 63px;
+}
+.fuzis{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.fuzis>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.bulldog{
+  width: 205px;
+  height: 60px;
+}
+.bulldog:hover{
+  width: 215px;
+  height: 65px;
+}
+.guardian{
+  width: 225px;
+  height: 50px;
+}
+.guardian:hover{
+  width: 235px;
+  height: 55px;
+}
+.phantom{
+  width: 245px;
+  height: 58px;
+}
+.phantom:hover{
+  width: 255px;
+  height: 63px;
+}
+.vandal{
+  width: 245px;
+  height: 70px;
+}
+.vandal:hover{
+  width: 255px;
+  height: 75px;
+}
+.fuzis-precisao{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.fuzis-precisao>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.marshal{
+  width: 275px;
+  height: 50px;
+}
+.marshal:hover{
+  width: 285px;
+  height: 55px;
+}
+.operator{
+  width: 275px;
+  height: 55px;
+}
+.operator:hover{
+  width: 285px;
+  height: 60px;
+}
+.metralhadoras{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.metralhadoras>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.ares{
+  width: 245px;
+  height: 47px;
+}
+.ares:hover{
+  width: 255px;
+  height: 52px;
+}
+.odin{
+  width: 245px;
+  height: 60px;
+}
+.odin:hover{
+  width: 255px;
+  height: 65px;
+}
+.arma-confronto{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 45px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.arma-confronto>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.faca{
+  width: 205px;
+  height: 75px;
+}
+.faca:hover{
+  width: 215px;
+  height: 85px;
 }
 .linha-horizontal{
     border-bottom: #162736 2px solid;
