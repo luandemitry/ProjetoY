@@ -185,7 +185,7 @@ nav{
   margin: 1px 15px;
   border-radius: 5px;
   width: 889px;
-  height: 2300px;
+  height: 2250px;
   display: inline-block;
   position: relative;
   left: 5px;
@@ -203,7 +203,7 @@ nav{
   color: white;
   margin-top: 30px;
   font-size: 20px;
-  margin-left: 45px;
+  margin-left: 50px;
 }
 .armas-leves{
   display: flex;
@@ -255,11 +255,11 @@ p {
   height: 70px;
 }
 .sheriff{
-  width: 150px;
+  width: 135px;
   height: 70px;
 }
 .sheriff:hover{
-  width: 160px;
+  width: 145px;
   height: 80px;
 }
 .submetralhadoras{
@@ -437,6 +437,233 @@ p {
 .faca:hover{
   width: 215px;
   height: 85px;
+}
+.mais-armas{
+  background-color: #162736;
+  margin: 1px 15px;
+  margin-block-end: 2px;
+  border-radius: 5px;
+  width: 889px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+.mais-arma{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.mais-arma:hover{
+  font-size: 30px;
+}
+.agentes{
+  background-color: #162736;
+  margin: 25px 15px;
+  margin-block-end: 2px;
+  border-radius: 5px;
+  width: 889px;
+  height: 126px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+#agente{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 45px;
+  margin-left: 30px;
+}
+.tipos-agentes{
+  background-color: #162736;
+  margin: 1px 15px;
+  border-radius: 5px;
+  width: 889px;
+  height: 2500px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+.iniciadores{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.iniciadores>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.sova{
+  width: 170px;
+  height: 220px;
+}
+.sova:hover{
+  width: 180px;
+  height: 230px;
+}
+.breach{
+  width: 170px;
+  height: 220px;
+}
+.breach:hover{
+  width: 180px;
+  height: 230px;
+}
+.skye{
+  width: 170px;
+  height: 220px;
+}
+.skye:hover{
+  width: 180px;
+  height: 230px;
+}
+.kayo{
+  width: 170px;
+  height: 220px;
+}
+.kayo:hover{
+  width: 180px;
+  height: 230px;
+}
+.duelistas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.duelistas>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.jett{
+  width: 170px;
+  height: 220px;
+}
+.jett:hover{
+  width: 180px;
+  height: 230px;
+}
+.phoenix{
+  width: 170px;
+  height: 220px;
+}
+.phoenix:hover{
+  width: 180px;
+  height: 230px;
+}
+.raze{
+  width: 170px;
+  height: 220px;
+}
+.raze:hover{
+  width: 180px;
+  height: 230px;
+}
+.reyna{
+  width: 170px;
+  height: 220px;
+}
+.reyna:hover{
+  width: 180px;
+  height: 230px;
+}
+.yoru{
+  width: 170px;
+  height: 220px;
+}
+.yoru:hover{
+  width: 180px;
+  height: 230px;
+}
+.controladores{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.controladores>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.astra{
+  width: 170px;
+  height: 220px;
+}
+.astra:hover{
+  width: 180px;
+  height: 230px;
+}
+.brimstone{
+  width: 170px;
+  height: 220px;
+}
+.brimstone:hover{
+  width: 180px;
+  height: 230px;
+}
+.omen{
+  width: 170px;
+  height: 220px;
+}
+.omen:hover{
+  width: 180px;
+  height: 230px;
+}
+.viper{
+  width: 170px;
+  height: 220px;
+}
+.viper:hover{
+  width: 180px;
+  height: 230px;
+}
+.sentinelas{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 85px;
+  max-width: 800px;
+  align-items: center;
+}
+.sentinelas>div{
+  flex: 1 1 60px;
+  margin: 30px;
+}
+.cypher{
+  width: 170px;
+  height: 220px;
+}
+.cypher:hover{
+  width: 180px;
+  height: 230px;
+}
+.killjoy{
+  width: 170px;
+  height: 220px;
+}
+.killjoy:hover{
+  width: 180px;
+  height: 230px;
+}
+.sage{
+  width: 170px;
+  height: 220px;
+}
+.sage:hover{
+  width: 180px;
+  height: 230px;
 }
 .linha-horizontal{
     border-bottom: #162736 2px solid;
