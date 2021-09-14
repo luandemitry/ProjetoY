@@ -185,7 +185,7 @@ nav{
   margin: 1px 15px;
   border-radius: 5px;
   width: 889px;
-  height: 2250px;
+  height: 760px;
   display: inline-block;
   position: relative;
   left: 5px;
@@ -290,154 +290,6 @@ p {
   width: 205px;
   height: 80px;
 }
-.escopetas{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-  margin-left: 85px;
-  max-width: 800px;
-  align-items: center;
-}
-.escopetas>div{
-  flex: 1 1 60px;
-  margin: 30px;
-}
-.bucky{
-  width: 195px;
-  height: 35px;
-}
-.bucky:hover{
-  width: 205px;
-  height: 40px;
-}
-.judge{
-  width: 195px;
-  height: 58px;
-}
-.judge:hover{
-  width: 205px;
-  height: 63px;
-}
-.fuzis{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-  margin-left: 85px;
-  max-width: 800px;
-  align-items: center;
-}
-.fuzis>div{
-  flex: 1 1 60px;
-  margin: 30px;
-}
-.bulldog{
-  width: 205px;
-  height: 60px;
-}
-.bulldog:hover{
-  width: 215px;
-  height: 65px;
-}
-.guardian{
-  width: 225px;
-  height: 50px;
-}
-.guardian:hover{
-  width: 235px;
-  height: 55px;
-}
-.phantom{
-  width: 245px;
-  height: 58px;
-}
-.phantom:hover{
-  width: 255px;
-  height: 63px;
-}
-.vandal{
-  width: 245px;
-  height: 70px;
-}
-.vandal:hover{
-  width: 255px;
-  height: 75px;
-}
-.fuzis-precisao{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-  margin-left: 85px;
-  max-width: 800px;
-  align-items: center;
-}
-.fuzis-precisao>div{
-  flex: 1 1 60px;
-  margin: 30px;
-}
-.marshal{
-  width: 275px;
-  height: 50px;
-}
-.marshal:hover{
-  width: 285px;
-  height: 55px;
-}
-.operator{
-  width: 275px;
-  height: 55px;
-}
-.operator:hover{
-  width: 285px;
-  height: 60px;
-}
-.metralhadoras{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-  margin-left: 85px;
-  max-width: 800px;
-  align-items: center;
-}
-.metralhadoras>div{
-  flex: 1 1 60px;
-  margin: 30px;
-}
-.ares{
-  width: 245px;
-  height: 47px;
-}
-.ares:hover{
-  width: 255px;
-  height: 52px;
-}
-.odin{
-  width: 245px;
-  height: 60px;
-}
-.odin:hover{
-  width: 255px;
-  height: 65px;
-}
-.arma-confronto{
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 45px;
-  margin-left: 85px;
-  max-width: 800px;
-  align-items: center;
-}
-.arma-confronto>div{
-  flex: 1 1 60px;
-  margin: 30px;
-}
-.faca{
-  width: 205px;
-  height: 75px;
-}
-.faca:hover{
-  width: 215px;
-  height: 85px;
-}
 .mais-armas{
   background-color: #162736;
   margin: 1px 15px;
@@ -479,25 +331,33 @@ p {
   font-size: 45px;
   margin-left: 30px;
 }
+.resumo-agentes{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 30px;
+  font-size: 15px;
+  margin-left: 10px;
+}
 .tipos-agentes{
   background-color: #162736;
   margin: 1px 15px;
   border-radius: 5px;
   width: 889px;
-  height: 2500px;
+  height: 800px;
   display: inline-block;
   position: relative;
   left: 5px;
 }
-.iniciadores{
+.agentes-img{
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
   margin-left: 85px;
-  max-width: 800px;
+  max-width: 790px;
   align-items: center;
 }
-.iniciadores>div{
+.agentes-img>div{
   flex: 1 1 60px;
   margin: 30px;
 }
@@ -533,7 +393,7 @@ p {
   width: 180px;
   height: 230px;
 }
-.duelistas{
+/*.duelistas{
   display: flex;
   flex-wrap: wrap;
   margin-top: 20px;
@@ -544,7 +404,7 @@ p {
 .duelistas>div{
   flex: 1 1 60px;
   margin: 30px;
-}
+}*/
 .jett{
   width: 170px;
   height: 220px;
@@ -553,14 +413,14 @@ p {
   width: 180px;
   height: 230px;
 }
-.phoenix{
+/*.phoenix{
   width: 170px;
   height: 220px;
 }
 .phoenix:hover{
   width: 180px;
   height: 230px;
-}
+}*/
 .raze{
   width: 170px;
   height: 220px;
@@ -573,7 +433,7 @@ p {
   width: 170px;
   height: 220px;
 }
-.reyna:hover{
+/*.reyna:hover{
   width: 180px;
   height: 230px;
 }
@@ -664,6 +524,47 @@ p {
 .sage:hover{
   width: 180px;
   height: 230px;
+}*/
+.mais-agentes{
+  background-color: #162736;
+  margin: 1px 15px;
+  margin-block-end: 2px;
+  border-radius: 5px;
+  width: 889px;
+  height: 100px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+.mais-agente{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-left: 30px;
+}
+.mais-agente:hover{
+  font-size: 30px;
+}
+.mapas-titulo{
+  background-color: #162736;
+  margin: 25px 15px;
+  margin-block-end: 2px;
+  border-radius: 5px;
+  width: 889px;
+  height: 126px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+#mapas{
+  font-family: beckman;
+  color: white;
+  text-align: center;
+  margin-top: 40px;
+  font-size: 45px;
+  margin-left: 30px;
 }
 .linha-horizontal{
     border-bottom: #162736 2px solid;
