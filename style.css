@@ -301,6 +301,9 @@ p {
   position: relative;
   left: 5px;
 }
+.mais-armas:hover{
+  background-color: #395d7c;
+}
 .mais-arma{
   font-family: beckman;
   color: white;
@@ -310,7 +313,7 @@ p {
   margin-left: 30px;
 }
 .mais-arma:hover{
-  font-size: 30px;
+  font-size: 35px;
 }
 .agentes{
   background-color: #162736;
@@ -536,6 +539,9 @@ p {
   position: relative;
   left: 5px;
 }
+.mais-agentes:hover{
+  background-color: #395d7c;
+}
 .mais-agente{
   font-family: beckman;
   color: white;
@@ -545,7 +551,7 @@ p {
   margin-left: 30px;
 }
 .mais-agente:hover{
-  font-size: 30px;
+  font-size: 35px;
 }
 .mapas-titulo{
   background-color: #162736;
@@ -565,6 +571,24 @@ p {
   margin-top: 40px;
   font-size: 45px;
   margin-left: 30px;
+}
+.mapas-conteu{
+  background-color: #162736;
+  margin: 1px 15px;
+  border-radius: 5px;
+  width: 889px;
+  height: 800px;
+  display: inline-block;
+  position: relative;
+  left: 5px;
+}
+.mapas-img{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-left: 85px;
+  max-width: 790px;
+  align-items: center;
 }
 .linha-horizontal{
     border-bottom: #162736 2px solid;
